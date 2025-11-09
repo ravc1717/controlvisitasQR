@@ -1,11 +1,12 @@
 {
   "buildCommand": "npm run build",
+  "installCommand": "npm install",
   "outputDirectory": "dist",
   "framework": "vite",
-  "installCommand": "npm install",
   "build": {
     "env": {
       "NODE_VERSION": "20"
     }
   }
 }
+
